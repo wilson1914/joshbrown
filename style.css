@@ -5,6 +5,7 @@ body {
 h1 {
   font-family:"Rajdhani" !important;
   color: #41d6db;
+  text-shadow: 2px 2px #db6841;
   
 }
 
@@ -14,19 +15,19 @@ h2 {
   text-shadow: 2px 2px #db6841;
 }
 
-h5 {
+h4 {
   color: #41c3c6;
    font-family:"Rajdhani" !important;
    margin-top: -.5rem;
 }
 
 a {
-  color: #db6841;
+  color: #313333;
   font-family: "Lato" !important;
 }
 
 a:hover {
-  color: #8e3c20;
+  color: #36a2a5;
   text-decoration: none;
 }
 
@@ -40,11 +41,19 @@ p {
 
 .nav-link {
   font-size: 1.2rem;
-  color: #db6841 !important;
+  color: #41d6db !important;
 }
 
 .nav-link:hover {
-  color: #8e3c20 !important;
+  color: #36a2a5 !important;
+}
+
+.hovering {
+  color: #41d6db !important;
+}
+
+.hovering:hover {
+  color: #36a2a5 !important;
 }
 
 .fa {
@@ -60,7 +69,7 @@ p {
 }
 
 .jumbotron {
-  padding-top: 5rem;
+  padding-top: 6rem;
   padding-bottom: 9rem;
   margin-bottom: 0;
   background-attachment: fixed;
@@ -75,7 +84,7 @@ p {
 }
 
 .jumbotron-heading {
-  font-size: 6rem;
+  font-size: 8.1rem;
   font-weight: 300;
 }
 
@@ -99,8 +108,24 @@ p {
 }
 
 .btn-secondary {
-	border: 1px solid #41d6db;
-	color: #db6841;
+	border: 2.2px solid #41d6db;	
+}
+
+.btn-secondary:hover {
+	color: #36a2a5 !important;
+	border: 2.2px solid #41d6db;
+}
+
+.btn-special {
+	color: #41d6db !important;
+}
+
+.btn-special:hover {
+	color: #36a2a5 !important;
+}
+
+.portfolio-button {
+	border: 1px solid #41d6db !important;
 }
 
 .portfolio-image {
@@ -130,7 +155,7 @@ p {
 #picture {
   width: 25%;
   border-radius: 100%;
-  border: 3px solid #db6841;
+ 
   position: relative;
   margin-top: 6.25rem;
   margin-bottom: 2rem;
@@ -1861,9 +1886,19 @@ footer p {
   }
 
   .jumbotron-heading {
-    font-size: 3.98em;
+    font-size: 5.1em;
     margin-bottom: .2em;
   }
+
+  .jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 4.5rem;
+  margin-bottom: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0% !important;
+}
 
   #picture {
     display: none;
@@ -1997,10 +2032,10 @@ footer p {
 }
 
 @media only screen and (min-width : 992px) and (max-width : 1200px) {
+ 
  h1 {
     font-size: 5em !important;
    }
-
 
   .lead {
   	margin-bottom: 3em;
