@@ -3,21 +3,21 @@ body {
 }
 
 h1 {
-  font-family:"Rajdhani" !important;
+  font-family:"Raleway" !important;
   color: #41d6db;
   text-shadow: 2px 2px #db6841;
   
 }
 
 h2 {
-  font-family:"Rajdhani" !important;
+  font-family:"Raleway" !important;
   color: #41d6db;
   text-shadow: 2px 2px #db6841;
 }
 
 h4 {
   color: #41c3c6;
-   font-family:"Rajdhani" !important;
+   font-family:"Raleway" !important;
    margin-top: -.5rem;
 }
 
@@ -84,7 +84,7 @@ p {
 }
 
 .jumbotron-heading {
-  font-size: 8.1rem;
+  font-size: 7.1rem;
   font-weight: 300;
 }
 
