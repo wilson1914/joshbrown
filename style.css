@@ -72,7 +72,7 @@ img:hover {
 }
 
 .jumbotron {
-  padding-top: 6rem;
+  padding-top: 5rem;
   padding-bottom: 9rem;
   margin-bottom: 0;
   background-attachment: fixed;
@@ -112,6 +112,10 @@ img:hover {
 
 .btn-secondary {
 	border: 2.2px solid #41d6db;	
+}
+
+#resume-button {
+  margin-bottom: -1em !important;
 }
 
 .btn-secondary:hover {
